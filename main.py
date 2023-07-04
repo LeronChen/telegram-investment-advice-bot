@@ -29,7 +29,7 @@ import matplotlib.pyplot as plt
 
 # 發電報函數
 def send_to_telegram(message):
-    apiToken = 'AAHnMlAAhphKFlo-wQ6xP8DH0v-nqebxt50'
+    apiToken = '6364187676:AAHD1UHypLJgFdpKuyAhaHMCJUEAvMQ0Pg0'
     chatID = '6244046527'
     apiURL = f'https://api.telegram.org/bot{apiToken}/sendMessage'
     try:
